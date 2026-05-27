@@ -1,0 +1,32 @@
+[
+  {
+    "integration": "proofpoint_on_demand",
+    "data_stream": "audit",
+    "dataset": "proofpoint_on_demand.audit",
+    "stream_type": "logs",
+    "wire_format": "JSON",
+    "transport_framing": "websocket",
+    "crbl": "proofpoint_on_demand__audit.crbl",
+    "validated": "generated"
+  },
+  {
+    "integration": "proofpoint_on_demand",
+    "data_stream": "mail",
+    "dataset": "proofpoint_on_demand.mail",
+    "stream_type": "logs",
+    "wire_format": "JSON",
+    "transport_framing": "websocket",
+    "crbl": "proofpoint_on_demand__mail.crbl",
+    "validated": "generated"
+  },
+  {
+    "integration": "proofpoint_on_demand",
+    "data_stream": "message",
+    "dataset": "proofpoint_on_demand.message",
+    "stream_type": "logs",
+    "wire_format": "JSON",
+    "transport_framing": "websocket",
+    "crbl": "proofpoint_on_demand__message.crbl",
+    "validated": "live"
+  }
+]
